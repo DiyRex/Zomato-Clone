@@ -119,3 +119,47 @@
         width: 95%;
     }
 }
+
+/* Out of media query */
+
+.container{
+    margin: 3rem auto;
+    width: 90%;
+}
+.we_offer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.we_offer_card{
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    margin-right: 12px;
+}
+.we_offer_card:hover{
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+.we_offer_card img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    object-position: center;
+}
+.we_offer_content{
+    padding: 10px;
+}
+.we_offer_content h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.we_offer_content p{
+    font-size: 12.5px;
+}
