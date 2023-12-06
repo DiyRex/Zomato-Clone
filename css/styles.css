@@ -295,6 +295,7 @@
 }
 .right .input_container{
     display: flex;
+    flex-wrap: wrap;
     gap: 0.5rem;
 }
 .input_container button, input{
@@ -328,4 +329,24 @@
 }
 .right .download_app_store_container img{
     width: 35%;
+}
+
+/* media query for download app section */
+@media only screen and (max-width: 1300px) {
+    .get_the_app .semiContainer .left,
+    .get_the_app .semiContainer .right{
+    flex: 1;
+   } 
+   .get_the_app .semiContainer{
+    width: 80%;
+   }
+}
+@media only screen and (max-width: 900px) {
+    .get_the_app{
+        padding: 2rem;
+    }
+    .get_the_app .semiContainer{
+        width: 90%;
+        flex-direction: column;
+    }
 }
