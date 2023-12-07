@@ -350,3 +350,18 @@
         flex-direction: column;
     }
 }
+
+.explore_title{
+    font-weight: 600;
+}
+.explore_dropdown_container{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: .8rem;
+}
+.explore_dropdown_container select{
+    padding: 1rem .5rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
